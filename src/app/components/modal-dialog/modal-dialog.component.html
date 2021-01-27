@@ -1,8 +1,11 @@
 <p>New account transaction:</p>
 <input class="form-control" id="account" placeholder="Account" value="104-00400-34" disabled />
+<br/>
 <input class="form-control" [(ngModel)]="amount" id="amount" placeholder="Amount" />
+<br/>
 <select class="form-control" [(ngModel)]="OperationType" id="OperationType" placeholder="Debit credit">
   <option>Debit</option>
   <option>Credit</option>
 </select>
-<button class="btn-secondary" (click)="CreateNewTran()" value="Create transaction">Create transaction</button>
+<br/>
+<button mat-raised-button color="primary" classs="btn-secondary form-control" (click)="CreateNewTran()" value="Create transaction">Create transaction</button>

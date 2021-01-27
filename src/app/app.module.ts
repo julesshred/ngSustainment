@@ -11,6 +11,7 @@ import { NgbAccordionModule } from '@ng-bootstrap/ng-bootstrap';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { MatSnackBar } from '@angular/material/snack-bar';
+import {MatButtonModule} from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,7 @@ import { MatSnackBar } from '@angular/material/snack-bar';
     BrowserAnimationsModule,
     MatDialogModule,
     NgbModule, NgbAccordionModule,
-    HttpClientModule, FormsModule
+    HttpClientModule, FormsModule, MatButtonModule
   ],
   providers: [HttpClientModule, MatSnackBar],
   bootstrap: [AppComponent]
