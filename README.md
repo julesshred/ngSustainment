@@ -16,3 +16,8 @@ https://github.com/julesshred/apiSustainment
 ## API:
 the .NET Web api binary runs on the following address:
 https://localhost:44313/api/bank
+
+## Testing steps:
+1) Test backend/frontend for Insufficient funds when creating a debit transaction (account starts out with $500 balance)
+2) Test backend/frontend to create debit or credit transaction
+3) Test backend/frontend for viewing transactions
